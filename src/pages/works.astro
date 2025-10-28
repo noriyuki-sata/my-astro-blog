@@ -1,0 +1,32 @@
+---
+// src/pages/works.astro
+
+// 共通のヘッダーを読み込みます
+import Header from '../components/Header.astro';
+---
+
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>実績一覧 | My Portfolio</title>
+</head>
+<body>
+
+  <Header />
+
+  <main>
+    <h1>実績一覧</h1>
+    <p>ここに、これからmicroCMSで管理する制作実績が並びます。</p>
+  </main>
+
+</body>
+</html>
+
+<style>
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+</style>
